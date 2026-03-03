@@ -1,0 +1,37 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Data files
+data/raw/*.csv
+data/staging/
+data/processed/
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+*.sql.bak
+.env
